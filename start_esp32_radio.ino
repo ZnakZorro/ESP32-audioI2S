@@ -3,6 +3,7 @@
 #include "WiFi.h"
 #include "Audio.h"
 
+//SparkFun - MAX98357A - dekoder stereo DAC I2S
 #define I2S_DOUT      22
 #define I2S_BCLK      26
 #define I2S_LRC       25
