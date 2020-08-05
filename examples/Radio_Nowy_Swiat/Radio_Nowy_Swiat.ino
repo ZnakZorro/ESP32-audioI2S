@@ -68,7 +68,7 @@ void setup() {
   #ifdef DEBUG 
     Serial.begin(115200); 
     Serial.println("");  
-    Serial.println("Radio dla rozy"); 
+    Serial.println("Radio Nowy Swiat"); 
     Serial.println("-------------");
   #endif  
 
@@ -85,12 +85,12 @@ void setup() {
                   Serial.println("An Error has occurred while mounting SPIFFS");
                 }
                 File root = SPIFFS.open("/"); 
-                /*File file = root.openNextFile();
+                File file = root.openNextFile();
                 while(file){
                     Serial.print("FILE: ");
                     Serial.println(file.name());
                     file = root.openNextFile();
-                }*/    
+                }    
               /*SPIFFS*/
 
     wifiMulti.addAP("", "");
